@@ -63,6 +63,8 @@ def GetCurrentPathName():
 final_df = pd.DataFrame()
 
 #Apply UberSplitDateTime to Date and Time of Trip column.
+#Date and time of trip
+final_df["Date and time of trip"] = UberTripData["DateTimeTrip"]
 final_df["Date and Time of clean"] = UberTripData["DateTimeTrip"].apply(lambda x: UberSplitDateTime(x, random.randint(lower_time_range,upper_time_range)))
 final_df["Driver name"] = "Manmeet"
 final_df["Driver certificate number"] = "DC631236" 
