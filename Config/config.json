@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configs": 
+        {
+            "BasePath": "D:\\\\Uber Cleaning Record\\\\",
+            "HTMLHeaderTemplate": "UberCleaningRecordHeaderTemplate.html",
+            "HTMLFooterTemplate": "UberCleaningRecordFooterTemplate.html",
+            "FinalHTMLResult": "UberCleanTimeHTML.html",
+            "HTMLFolder": "\\\\HTML\\\\",
+            "CSVFolder": "\\\\CSV\\\\"
+        }
+    
+}
