@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "folder_configs": 
+        {
+            "BasePath": "D:\\\\Uber Cleaning Record\\\\",
+            "BuildPath": "D:\\\\UberBuild\\\\",
+            "HTMLFolder": "\\\\HTML\\\\",
+            "HTMLFiles":
+            {
+                "HTMLFilesToCopy" :
+                            { 
+                                "CleaningRecordHeader" :"UberCleaningRecordHeaderTemplate.html", 
+                                "CleaningRecordFooter" : "UberCleaningRecordFooterTemplate.html"
+                            }
+            },
+            "CSVFolder": "\\\\CSV\\\\"
+        }
+    
+}
