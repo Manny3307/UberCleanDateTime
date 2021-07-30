@@ -1,3 +1,4 @@
+from numpy.lib.function_base import append
 import pandas as pd
 import glob
 from datetime import datetime as dt, timedelta
@@ -7,6 +8,8 @@ import random
 import json
 import os, ntpath
 from shutil import copyfile
+from sqlalchemy import create_engine, orm
+import mysql.connector
 
 # Load the Config JSON file from the config folder and read the respective values
 FolderConfigJSON = open('./Config/folder_config.json')
@@ -31,6 +34,21 @@ HTMLFooterTemplate = ConfigData["configs"]["HTMLFooterTemplate"]
 FinalHTMLResult = ConfigData["configs"]["FinalHTMLResult"]
 HTMLFolder = ConfigData["configs"]["HTMLFolder"]
 CSVFolder = ConfigData["configs"]["CSVFolder"]
+DataFrameColumnValues = ConfigData["configs"]["DataFrameColumnsValues"]
+
+#Get the fields of the DataFrame from the Config File
+DataFrameConf = open('./Config/DataFrameConfig.json')
+dataconf = json.load(DataFrameConf)
+
+#Get the fields of the Database Configuration from the Config File
+DBConfig = open('./Config/DBConfig.json')
+dbconf = json.load(DBConfig)
+
+DBConnector = dbconf["DBConfigs"]["DBConnecter"]
+UserName = dbconf["DBConfigs"]["UserName"]
+Password = dbconf["DBConfigs"]["Password"]
+ServerOrEndPoint = dbconf["DBConfigs"]["ServerOrEndPoint"]
+DatabaseName = dbconf["DBConfigs"]["DatabaseName"]
 
 #Set the Upper and Lower Limit for Time Substraction
 lower_time_range = 2
@@ -131,12 +149,40 @@ final_df = pd.DataFrame()
 
 #Apply UberSplitDateTime to Date and Time of Trip column.
 #Date and time of trip
-final_df["Date and time of trip"] = UberTripData["DateTimeTrip"]
-final_df["Date and Time of clean"] = UberTripData["DateTimeTrip"].apply(lambda x: UberSplitDateTime(x, random.randint(lower_time_range,upper_time_range)))
-final_df["Driver name"] = "Manmeet"
-final_df["Driver certificate number"] = "DC631236" 
-final_df["Passenger high-touch surfaces cleaned? (Y/N)"] = "Y"
-final_df["Driver high-touch surfaces cleaned? (Y/N)"] = "Y"
+for (k, v) in dataconf.items():
+    if v["IsEval"] == True:
+        final_df[v["dfColumn"]] = eval(v["Value"])
+    else:
+        final_df[v["dfColumn"]] = v["Value"]
+
+# Create SQLAlchemy engine to connect to MySQL Database
+engine = create_engine(f"{DBConnector}://{UserName}:{Password}@{ServerOrEndPoint}/{DatabaseName}", encoding='utf8')
+
+print("Sending Records to database....")
+
+# Convert dataframe to sql table                                   
+final_df.to_sql('UberTempCleaningRecords', engine, if_exists='append', index=False)
+
+connection = engine.raw_connection()
+# define parameters to be passed in and out
+parameterIn = None
+parameterOut = "@parameterOut"
+try:
+    cursor = connection.cursor()
+    results = cursor.callproc("InsertJSONCleaningRecord", [parameterOut])
+    # fetch result parameters
+    cursor.close()
+    connection.commit()
+finally:
+    connection.close() 
+
+#Print the message returned from the Stored Procedure
+print(results[0])
+
+print("Records successfully sent to database !!!")
+
+#Update Column Names of the main Dataframe
+final_df.rename(columns=eval(DataFrameColumnValues), inplace = True)  
 
 #Convert data frame into a HTML table.
 BodyTemplate = final_df.to_html(classes='mystyle',index=False)
