@@ -56,7 +56,7 @@ BuildCSVPath = BuildPath + CreateCSVFolder
 #Copy the Required files to the created folders
 # Read a single HTML file or multiple HTML files from the Given Folder.
 HTMLTemplatefiles_src = glob.glob(f"{BuildHTMLPath}*.html")
-CSVTemplatefiles_src = glob.glob(f"{BuildHTMLPath}*.csv")
+CSVTemplatefiles_src = glob.glob(f"{BuildCSVPath}*.csv")
 
 def copy_files_to_dest_folder(Templatefiles_src, DirName):
     if Templatefiles_src != None:
