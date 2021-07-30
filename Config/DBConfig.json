@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "DBConfigs": 
+        {
+            "DBConnecter": "mysql+mysqlconnector",
+            "UserName": "admin",
+            "Password": "pikolo486",
+            "ServerOrEndPoint": "manny-uber-records.cwl0oxqn3sec.us-east-2.rds.amazonaws.com",
+            "DatabaseName": "manny_uber_records_2021"
+        }
+}
