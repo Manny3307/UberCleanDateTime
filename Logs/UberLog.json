@@ -1,0 +1,48 @@
+[
+ {
+  "UberDateLog": "31/07/2021 20-35-40",
+  "UberLogs": [
+   "31/07/2021 20-35-40",
+   "Configurations Loaded successfully",
+   "Creating folder successfully",
+   "Folder Structure created successfully",
+   "CSV and HTML files copied successfully to the newly created folders",
+   "Date and Time Data successfully loaded in the dataframe",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 57",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "31/07/2021 20-37-03",
+  "UberLogs": [
+   "31/07/2021 20-37-03",
+   "Configurations Loaded successfully",
+   "Creating folder successfully",
+   "Folder Structure created successfully",
+   "CSV and HTML files copied successfully to the newly created folders",
+   "Date and Time Data successfully loaded in the dataframe",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 57",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ }
+]
