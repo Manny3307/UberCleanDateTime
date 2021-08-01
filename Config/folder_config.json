@@ -2,8 +2,8 @@
     "version": "0.2.0",
     "folder_configs": 
         {
-            "BasePath": "/Uber Cleaning Record",
-            "BuildPath": "/UberBuild",
+            "BasePath": "../cleaningrecord",
+            "BuildPath": "../UberBuild",
             "HTMLFolder": "HTML",
             "HTMLFiles":
             {

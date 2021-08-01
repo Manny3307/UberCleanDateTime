@@ -1,4 +1,4 @@
-from IPython.core.display import ProgressBar
+
 from numpy.lib.function_base import append
 import pandas as pd
 import glob
@@ -171,6 +171,8 @@ try:
     #Build the Path for HTML and CSV Folders.
     BuildHTMLPath = os.path.join(BuildPath, CreateHTMLFolder)
     BuildCSVPath = os.path.join(BuildPath, CreateCSVFolder)
+    print(BuildHTMLPath)
+    print(BuildCSVPath)
 
     #Copy the Required files to the created folders
     # Read a single HTML file or multiple HTML files from the Given Folder.

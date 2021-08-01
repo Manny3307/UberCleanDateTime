@@ -204,5 +204,349 @@
    "Begin to write the PDF file from the resultant HTML!!!",
    "PDF written successfully from the resultant HTML file!!!"
   ]
+ },
+ {
+  "UberDateLog": "01/08/2021 09-44-03 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 09-47-45 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 09-53-31 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 09-56-30 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 10-12-05 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 10-26-28 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 10-47-59 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 10-58-17 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 11-07-53 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 11-12-39 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/UberCleaningRecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-18-33 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 207, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/util/_decorators.py\", line 311, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 304, in concat\n    sort=sort,\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 351, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-25-32 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 207, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/util/_decorators.py\", line 311, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 304, in concat\n    sort=sort,\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 351, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-29-09 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 207, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/util/_decorators.py\", line 311, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 304, in concat\n    sort=sort,\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 351, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-31-43 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 207, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/util/_decorators.py\", line 311, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 304, in concat\n    sort=sort,\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 351, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-37-44 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 209, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/util/_decorators.py\", line 311, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 304, in concat\n    sort=sort,\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 351, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-38-59 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "ERROR: File(s) cannot be copied in required folders.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 163, in copy_files_to_dest_folder\n    copyfile(src_files, dest_files)\n  File \"/home/manny/anaconda3/lib/python3.7/shutil.py\", line 121, in copyfile\n    with open(dst, 'wb') as fdst:\nPermissionError: [Errno 13] Permission denied: '/home/manny/UberCleaningRecord/Temp/HTML/UberCleaningRecordFooterTemplate.html'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-38-59 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "ERROR: File(s) cannot be copied in required folders.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 163, in copy_files_to_dest_folder\n    copyfile(src_files, dest_files)\n  File \"/home/manny/anaconda3/lib/python3.7/shutil.py\", line 121, in copyfile\n    with open(dst, 'wb') as fdst:\nPermissionError: [Errno 13] Permission denied: '/home/manny/UberCleaningRecord/Temp/HTML/UberCleaningRecordFooterTemplate.html'\n",
+   "Exiting the Program",
+   "ERROR: Required HTML and CSV file(s) cannot be copied in designated folders.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 163, in copy_files_to_dest_folder\n    copyfile(src_files, dest_files)\n  File \"/home/manny/anaconda3/lib/python3.7/shutil.py\", line 121, in copyfile\n    with open(dst, 'wb') as fdst:\nPermissionError: [Errno 13] Permission denied: '/home/manny/UberCleaningRecord/Temp/HTML/UberCleaningRecordFooterTemplate.html'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 183, in <module>\n    copy_files_to_dest_folder(HTMLTemplatefiles_src, HTMLDirName)\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 168, in copy_files_to_dest_folder\n    UberLogException(\"ERROR: File(s) cannot be copied in required folders.\", True, True)\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 36, in UberLogException\n    if UberSystemExit == True: sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-46-02 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "Date and Time Data successfully loaded in the dataframe.",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 57",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-48-49 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 127, in <module>\n    os.makedirs(dirName)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 211, in makedirs\n    makedirs(head, exist_ok=exist_ok)\n  File \"/home/manny/anaconda3/lib/python3.7/os.py\", line 221, in makedirs\n    mkdir(name, mode)\nPermissionError: [Errno 13] Permission denied: '/cleaningrecord'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-49-38 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 209, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/util/_decorators.py\", line 311, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 304, in concat\n    sort=sort,\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 351, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-51-45 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 209, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/util/_decorators.py\", line 311, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 304, in concat\n    sort=sort,\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 351, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-54-49 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 209, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/util/_decorators.py\", line 311, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 304, in concat\n    sort=sort,\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/reshape/concat.py\", line 351, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 12-55-56 AM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "Date and Time Data successfully loaded in the dataframe.",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 57",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
  }
 ]

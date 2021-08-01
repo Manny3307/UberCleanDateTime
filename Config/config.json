@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configs": 
         {
-            "BasePath": "/Uber Cleaning Record",
+            "BasePath": "../cleaningrecord",
             "HTMLHeaderTemplate": "UberCleaningRecordHeaderTemplate.html",
             "HTMLFooterTemplate": "UberCleaningRecordFooterTemplate.html",
             "FinalHTMLResult": "UberCleanTimeHTML.html",
