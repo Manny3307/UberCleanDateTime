@@ -44,5 +44,165 @@
    "Begin to write the PDF file from the resultant HTML!!!",
    "PDF written successfully from the resultant HTML file!!!"
   ]
+ },
+ {
+  "UberDateLog": "01/08/2021 17-47-30",
+  "UberLogs": [
+   "01/08/2021 17-47-30",
+   null
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 17-49-00",
+  "UberLogs": [
+   "01/08/2021 17-49-00",
+   "None"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 18-46-36",
+  "UberLogs": [
+   "01/08/2021 18-46-36",
+   "Cannot load the folder settings from folder_config.json, Exiting the Program!!!",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 39, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 18-56-03",
+  "UberLogs": [
+   "01/08/2021 18-56-03",
+   "ERROR: Cannot load the folder settings from folder_config.json, Exiting the Program!!!",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 52, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 18-58-31",
+  "UberLogs": [
+   "ERROR: Cannot load the folder settings from folder_config.json, Exiting the Program!!!",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 53, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 18-59-12",
+  "UberLogs": [
+   "ERROR: Cannot load the folder settings from folder_config.json, Exiting the Program!!!",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 54, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 19-01-05",
+  "UberLogs": [
+   "ERROR: Cannot load the folder settings from folder_config.json, Exiting the Program!!!",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 54, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 19-13-59 AM/PM",
+  "UberLogs": [
+   "ERROR: Cannot load the folder settings from folder_config.json!!!",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 53, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 07-15 PM",
+  "UberLogs": [
+   "ERROR: Cannot load the folder settings from folder_config.json!!!",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 53, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 07-16-25 PM",
+  "UberLogs": [
+   "ERROR: Cannot load the folder settings from folder_config.json!!!",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 53, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 08-37-21 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "ERROR: Required HTML and CSV file(s) cannot be copied in designated folders.",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 181, in <module>\n    copy_files_to_dest_folder(HTMLTemplatefiles_src, HTMLDirName)\nNameError: name 'HTMLDirName' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 08-41-20 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 207, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"C:\\ProgramData\\Anaconda3\\lib\\site-packages\\pandas\\core\\reshape\\concat.py\", line 274, in concat\n    op = _Concatenator(\n  File \"C:\\ProgramData\\Anaconda3\\lib\\site-packages\\pandas\\core\\reshape\\concat.py\", line 331, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 08-43-41 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 208, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"C:\\ProgramData\\Anaconda3\\lib\\site-packages\\pandas\\core\\reshape\\concat.py\", line 274, in concat\n    op = _Concatenator(\n  File \"C:\\ProgramData\\Anaconda3\\lib\\site-packages\\pandas\\core\\reshape\\concat.py\", line 331, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 08-48-18 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"d:\\UberBuild\\UberCleaningRecordBuilder.py\", line 209, in <module>\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"C:\\ProgramData\\Anaconda3\\lib\\site-packages\\pandas\\core\\reshape\\concat.py\", line 274, in concat\n    op = _Concatenator(\n  File \"C:\\ProgramData\\Anaconda3\\lib\\site-packages\\pandas\\core\\reshape\\concat.py\", line 331, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "01/08/2021 08-53-23 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "Date and Time Data successfully loaded in the dataframe.",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 114",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
  }
 ]

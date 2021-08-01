@@ -5,7 +5,7 @@ from datetime import datetime as dt, timedelta
 import random
 import ast
 from sqlalchemy import create_engine
-
+'''
 
 f = open('./Config/config.json')
 data = json.load(f)
@@ -14,9 +14,69 @@ data = json.load(f)
 #print(data["configs"]["HTMLHeaderTemplate"])
 
 f.close()
+'''
+
 #print(os.name)
 #print(sys.platform)
+#print(os.getcwd())
 
+#foldertoCreate = input("Please Enter the name of the Folder")
+
+foldertoCreate = "/Temps"
+# Load the Config JSON file from the config folder and read the respective values
+#FolderConfigJSON = open('./Config/folder_config.json')
+#CreateConfigData = json.load(FolderConfigJSON)
+
+# Get The Base Path from the Config File.
+CreateBasePath = "/Uber Cleaning Record"
+BuildPath = "/UberBuild"
+CreateHTMLHeaderTemplate = "UberCleaningRecordHeaderTemplate.html"
+CreateHTMLFooterTemplate = "UberCleaningRecordFooterTemplate.html"
+CreateHTMLFolder = "HTML"
+CreateCSVFolder = "CSV"
+'''
+#print(os.path.exists('/Uber Cleaning Record'))
+files = os.listdir(CreateBasePath)
+pathfile=os.path.dirname(CreateBasePath)
+#print(pathfile)
+mypath = os.path.join(CreateBasePath, "Temp")
+#print(mypath)
+#files = os.listdir(mypath)
+#print(files)
+'''
+
+folderName = input("Please Enter the name of the Folder: ")
+
+#dirName = CreateBasePath + folderName
+#CSVDirName = dirName + CreateCSVFolder
+dirName = os.path.join(CreateBasePath, folderName)
+
+# Create target Directory
+if not os.path.exists(dirName):
+    os.makedirs(dirName)
+    print("Directory " , dirName ,  " Created ") 
+    
+    HTMLDirName = os.path.join(dirName, CreateHTMLFolder)
+    #Create "HTML" directory
+    if not os.path.exists(HTMLDirName):
+        os.makedirs(HTMLDirName)
+        print("Directory " , HTMLDirName ,  " Created ")
+    else:
+        print("Directory " , HTMLDirName ,  " already exists")  
+    
+    CSVDirName = os.path.join(dirName, CreateCSVFolder)
+    #Create "CSV" directory
+    if not os.path.exists(CSVDirName):
+        os.makedirs(CSVDirName)
+        print("Directory " , CSVDirName ,  " Created ")
+    else:
+        print("Directory " , CSVDirName ,  " already exists")      
+else:
+    print("Directory " , dirName ,  " already exists")  
+
+
+
+'''
 FolderConfigJSON = open('./Config/folder_config.json')
 ConfigData = json.load(FolderConfigJSON)
 
@@ -107,3 +167,4 @@ try:
     connection.commit()
 finally:
     connection.close() 
+    '''

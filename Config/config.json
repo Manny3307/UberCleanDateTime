@@ -2,13 +2,13 @@
     "version": "0.2.0",
     "configs": 
         {
-            "BasePath": "D:\\\\Uber Cleaning Record\\\\",
+            "BasePath": "/Uber Cleaning Record",
             "HTMLHeaderTemplate": "UberCleaningRecordHeaderTemplate.html",
             "HTMLFooterTemplate": "UberCleaningRecordFooterTemplate.html",
             "FinalHTMLResult": "UberCleanTimeHTML.html",
-            "HTMLFolder": "\\\\HTML\\\\",
-            "CSVFolder": "\\\\CSV\\\\",
-            "DataFrameColumnsValues": "{'Date_and_time_of_trip':'Date and time of trip', 'Date_and_Time_of_clean':'Date and Time of clean', 'Driver_name':'Driver name', 'Driver_certificate_number':'Driver certificate number', 'Passenger_hightouch_surfaces_cleaned':'Passenger high-touch surfaces cleaned? (Y/N)', 'Driver_hightouch_surfaces_cleaned':'Driver high-touch surfaces cleaned? (Y/N)'}"
+            "HTMLFolder": "HTML",
+            "CSVFolder": "CSV",
+            "DataFrameColumnsNames": "{'Date_and_time_of_trip':'Date and time of trip', 'Date_and_Time_of_clean':'Date and Time of clean', 'Driver_name':'Driver name', 'Driver_certificate_number':'Driver certificate number', 'Passenger_hightouch_surfaces_cleaned':'Passenger high-touch surfaces cleaned? (Y/N)', 'Driver_hightouch_surfaces_cleaned':'Driver high-touch surfaces cleaned? (Y/N)'}"
         }
     
 }
