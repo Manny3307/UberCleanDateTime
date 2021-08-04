@@ -1,0 +1,545 @@
+[
+ {
+  "UberDateLog": "04/08/2021 12-03-01 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 108, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'UberSplitDateTime' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-04-20 AM",
+  "UberLogs": [
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe."
+   ],
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 2",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-06-30 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'self' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-10-44 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'self' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-11-23 AM",
+  "UberLogs": [
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe."
+   ],
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 2",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-13-47 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1\n    eval(UberTripData['DateTimeTrip'].apply(lambda x: self=self: self.UberSplitDateTime(x, random.randint(lower_time_range,upper_time_range))))\n                                                               ^\nSyntaxError: invalid syntax\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-17-10 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1\n    eval(UberTripData['DateTimeTrip'].apply(lambda x: self: self.UberSplitDateTime(x, random.randint(lower_time_range,upper_time_range))))\n                                                          ^\nSyntaxError: invalid syntax\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-17-46 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1\nSyntaxError: lambda cannot contain assignment\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-18-46 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1\n    eval(UberTripData['DateTimeTrip'].apply(lambda x: self:self.UberSplitDateTime(x, random.randint(lower_time_range,upper_time_range))))\n                                                          ^\nSyntaxError: invalid syntax\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-19-38 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'self' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-20-22 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'UberSplitDateTime' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-21-48 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'temp' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-22-30 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'temp' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-23-03 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'self' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-33-24 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1\n    UberTripData['DateTimeTrip'].apply(lambda x: 'self':self.UberSplitDateTime(x, random.randint(lower_time_range,upper_time_range)))\n                                                       ^\nSyntaxError: invalid syntax\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-34-08 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nAttributeError: 'str' object has no attribute 'UberSplitDateTime'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-36-29 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'self' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-36-57 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'UberSplitDateTime' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-42-49 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{'self':self})\n  File \"<string>\", line 1, in <module>\nNameError: name 'UberTripData' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-44-34 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{'self':self, 'UberTripData':UberTripData})\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'random' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-45-37 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{'self':self, 'UberTripData':UberTripData, 'random':random})\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'lower_time_range' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-47-21 AM",
+  "UberLogs": [
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe."
+   ],
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 2",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-55-41 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{v[\"IsDict\"]})\nTypeError: globals must be a dict\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-56-35 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{dict(v[\"IsDict\"])})\nTypeError: 'bool' object is not iterable\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-58-43 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{dict(v[\"IsDict\"])})\nValueError: dictionary update sequence element #0 has length 132; 2 is required\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 12-59-40 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],dict(v[\"IsDict\"]))\nValueError: dictionary update sequence element #0 has length 132; 2 is required\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-02-17 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],dict(v[\"IsDict\"]))\n  File \"<string>\", line 1, in <module>\nTypeError: string indices must be integers\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-03-15 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],v[\"IsDict\"])\n  File \"<string>\", line 1, in <module>\nTypeError: string indices must be integers\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-04-29 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 110, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],v[\"IsDict\"])\n  File \"<string>\", line 1, in <module>\nTypeError: string indices must be integers\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-08-41 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 110, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],eval(v[\"IsDict\"]))\nTypeError: eval() arg 1 must be a string, bytes or code object\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-12-02 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 110, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{eval(v[\"IsDict\"])})\n  File \"<string>\", line 1\n    'self:eval('self')', 'UberTripData:eval('UberTripData')', 'random:eval('random')', 'lower_time_range: eval('lower_time_range')', 'upper_time_range: eval('upper_time_range')'\n                   ^\nSyntaxError: invalid syntax\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-14-11 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 110, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{v[\"IsDict\"]})\nTypeError: globals must be a dict\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-14-50 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 110, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{dict(v[\"IsDict\"])})\nValueError: dictionary update sequence element #0 has length 1; 2 is required\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-20-18 AM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 111, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/series.py\", line 4356, in apply\n    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1036, in apply\n    return self.apply_standard()\n  File \"/home/manny/anaconda3/lib/python3.7/site-packages/pandas/core/apply.py\", line 1095, in apply_standard\n    convert=self.convert_dtype,\n  File \"pandas/_libs/lib.pyx\", line 2859, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'self' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 01-21-41 AM",
+  "UberLogs": [
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe."
+   ],
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 2",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 06-20-20 PM",
+  "UberLogs": [
+   "ERROR: PDF file cannot be created, please check if the PDF file is already open!!!",
+   "Traceback (most recent call last):\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/pdfkit/pdfkit.py\", line 170, in to_pdf\n    with codecs.open(path, encoding='utf-8') as f:\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/codecs.py\", line 905, in open\n    file = builtins.open(filename, mode, buffering)\nFileNotFoundError: [Errno 2] No such file or directory: '../cleaningrecord/source activate /home/manny/ML_Prac/Sample_Project/env/Cleaning-record-source activate /home/manny/ML_Prac/Sample_Project/env.pdf'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 197, in <module>\n    pdfkit.from_file(f\"{TemplatePath}/{FinalHTMLResult}\", GetCurrentPathName())\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/pdfkit/api.py\", line 49, in from_file\n    return r.to_pdf(output_path)\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/pdfkit/pdfkit.py\", line 179, in to_pdf\n    raise IOError('Command failed: %s\\n'\nTypeError: not enough arguments for format string\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 06-20-49 PM",
+  "UberLogs": [
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe."
+   ],
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 2",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 06-23-42 PM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/series.py\", line 3848, in apply\n    mapped = lib.map_infer(values, f, convert=convert_dtype)\n  File \"pandas/_libs/lib.pyx\", line 2329, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'self' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 06-26-43 PM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"],{eval(\"'self':self, 'UberTripData':UberTripData, 'random':random, 'lower_time_range': lower_time_range, 'upper_time_range': upper_time_range\")})\n  File \"<string>\", line 1\n    'self':self, 'UberTripData':UberTripData, 'random':random, 'lower_time_range': lower_time_range, 'upper_time_range': upper_time_range\n          ^\nSyntaxError: invalid syntax\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 06-29-08 PM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/series.py\", line 3848, in apply\n    mapped = lib.map_infer(values, f, convert=convert_dtype)\n  File \"pandas/_libs/lib.pyx\", line 2329, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'UberSplitDateTime' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 06-30-24 PM",
+  "UberLogs": [
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 109, in create_final_df\n    final_df[v[\"dfColumn\"]] = eval(v[\"Value\"])\n  File \"<string>\", line 1, in <module>\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/series.py\", line 3848, in apply\n    mapped = lib.map_infer(values, f, convert=convert_dtype)\n  File \"pandas/_libs/lib.pyx\", line 2329, in pandas._libs.lib.map_infer\n  File \"<string>\", line 1, in <lambda>\nNameError: name 'self' is not defined\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 07-56-49 PM",
+  "UberLogs": [
+   "Config settings from config.json Loaded successfully.",
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe."
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 08-33-22 PM",
+  "UberLogs": [
+   "Config settings from config.json Loaded successfully.",
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe.",
+    "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+    "Rendering the dataframe to HTML!!!"
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   [
+    "Config settings from config.json Loaded successfully.",
+    "Concatenating the final HTML!!!",
+    "Saving the final HTML to HTML file in HTML Folder!!!"
+   ],
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "04/08/2021 08-56-11 PM",
+  "UberLogs": [
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe.",
+    "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+    "Rendering the dataframe to HTML!!!"
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   [
+    "Config settings from config.json Loaded successfully.",
+    "Concatenating the final HTML!!!",
+    "Saving the final HTML to HTML file in HTML Folder!!!"
+   ],
+   [
+    "Begin to write the PDF file from the resultant HTML!!!",
+    "PDF written successfully from the resultant HTML file!!!"
+   ]
+  ]
+ }
+]

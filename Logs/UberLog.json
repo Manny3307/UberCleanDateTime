@@ -548,5 +548,115 @@
    "Begin to write the PDF file from the resultant HTML!!!",
    "PDF written successfully from the resultant HTML file!!!"
   ]
+ },
+ {
+  "UberDateLog": "02/08/2021 01-54-22 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "Date and Time Data successfully loaded in the dataframe.",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 2",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 02-21-22 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "Date and Time Data successfully loaded in the dataframe.",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+   "Insert succeeded to UberCleaningRecords, row count = 2",
+   "Records successfully sent to UberCleaningRecords in database !!!",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 08-14-47 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "Date and Time Data successfully loaded in the dataframe.",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "ERROR: Cleaning Records could not be sent to UberTempCleaningRecords.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 279, in <module>\n    time.sleep(0.5)  # emulating long-playing job\nAttributeError: type object 'datetime.time' has no attribute 'sleep'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "02/08/2021 08-14-47 PM",
+  "UberLogs": [
+   "Folder settings from folder_config.json Loaded successfully.",
+   "Config settings from config.json Loaded successfully.",
+   "Database credentials from DBconfig.json Loaded successfully.",
+   "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+   "All required configurations Loaded successfully.",
+   "Folder Structure created successfully.",
+   "CSV and HTML files copied successfully to the newly created designated folders.",
+   "Date and Time Data successfully loaded in the dataframe.",
+   "Creating the final dataframe having all the required columns",
+   "Connecting to Database",
+   "Sending Records to UberTempCleaningRecords table in database....",
+   "ERROR: Cleaning Records could not be sent to UberTempCleaningRecords.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 279, in <module>\n    time.sleep(0.5)  # emulating long-playing job\nAttributeError: type object 'datetime.time' has no attribute 'sleep'\n",
+   "Exiting the Program",
+   "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+   "Rendering the dataframe to HTML!!!",
+   "Concatenating the final HTML!!!",
+   "Saving the final HTML to HTML file in HTML Folder!!!",
+   "Begin to write the PDF file from the resultant HTML!!!",
+   "PDF written successfully from the resultant HTML file!!!"
+  ]
+ },
+ {
+  "UberDateLog": "03/08/2021 03-53-41 PM",
+  "UberLogs": [
+   "ERROR: Cannot load the folder settings from folder_config.json!!!",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 56, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "03/08/2021 05-07-17 PM",
+  "UberLogs": [
+   "ERROR: Cannot load the folder settings from folder_config.json!!!",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/UberCleaningRecordBuilder.py\", line 23, in <module>\n    FolderConfigJSON = open('./Config/folder_config.json')\nFileNotFoundError: [Errno 2] No such file or directory: './Config/folder_config.json'\n",
+   "Exiting the Program"
+  ]
  }
 ]

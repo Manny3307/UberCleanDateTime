@@ -5,6 +5,7 @@
                  {
                     "dfColumn" : "Date_and_time_of_trip",
                     "Value" : "UberTripData['DateTimeTrip']", 
+                    "IsDict": "false",
                     "IsEval" : true,
                     "ActualColumn" : "Date and time of trip"
                  }
@@ -15,7 +16,8 @@
             
                 { 
                     "dfColumn" : "Date_and_Time_of_clean",
-                    "Value" : "UberTripData['DateTimeTrip'].apply(lambda x: UberSplitDateTime(x, random.randint(lower_time_range,upper_time_range)))", 
+                    "Value" : "UberTripData['DateTimeTrip'].apply(lambda x: self.UberSplitDateTime(x, random.randint(lower_time_range,upper_time_range)))", 
+                    "IsDict": "true",
                     "IsEval" : true,
                     "ActualColumn" : "Date and Time of clean"
                 }
@@ -26,6 +28,7 @@
                 { 
                     "dfColumn" : "Driver_name",
                     "Value" : "Manmeet", 
+                    "IsDict": "false",
                     "IsEval" : false,
                     "ActualColumn" : "Driver name"
                 }
@@ -36,6 +39,7 @@
                 { 
                     "dfColumn" : "Driver_certificate_number",
                     "Value" : "DC631236", 
+                    "IsDict": "false",
                     "IsEval" : false,
                     "ActualColumn" : "Driver certificate number"
                 }
@@ -46,6 +50,7 @@
                 { 
                     "dfColumn" : "Passenger_hightouch_surfaces_cleaned",
                     "Value" : "Y", 
+                    "IsDict": "false",
                     "IsEval" : false,
                     "ActualColumn" : "Passenger high-touch surfaces cleaned? (Y/N)"
                 }
@@ -56,6 +61,7 @@
                 { 
                     "dfColumn" : "Driver_hightouch_surfaces_cleaned",
                     "Value" : "Y", 
+                    "IsDict": "false",
                     "IsEval" : false,
                     "ActualColumn" : "Driver high-touch surfaces cleaned? (Y/N)"
                 }

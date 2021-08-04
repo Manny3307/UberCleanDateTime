@@ -1,0 +1,10 @@
+{
+    "Messages": 
+        {
+            "folder_config": "Folder settings from folder_config.json Loaded successfully.",
+            "general_config": "Config settings from config.json Loaded successfully.",
+            "database_config": "Database credentials from DBconfig.json Loaded successfully.",
+            "dataframe_config": "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+            "all_config": "All required configurations Loaded successfully."
+        }
+}

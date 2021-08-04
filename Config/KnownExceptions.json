@@ -1,0 +1,11 @@
+{
+    "Exceptions": 
+        {
+            "folder_config": "ERROR: Cannot load the folder settings from folder_config.json!!!",
+            "general_config": "ERROR: Cannot load the settings from config.json",
+            "Database_config": "ERROR: Cannot load the Database settings from DBconfig.json",
+            "Dataframe_config": "ERROR: Cannot load the Dataframe configurations from DataFrameConfig.json"
+            
+            
+        }
+}
