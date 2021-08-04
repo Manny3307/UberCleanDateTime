@@ -5,6 +5,20 @@ from datetime import datetime as dt, timedelta
 import random
 import ast
 from sqlalchemy import create_engine
+from time import sleep
+from json import dumps
+from kafka import KafkaProducer
+
+
+producer = KafkaProducer(bootstrap_servers=['localhost:9092'],
+                         value_serializer=lambda x: 
+                         dumps(x).encode('utf-8'))
+
+for e in range(100):
+    data = {'number' : e}
+    producer.send('mallory', value=data)
+    #sleep(5)
+
 '''
 
 f = open('./Config/config.json')
@@ -21,7 +35,7 @@ f.close()
 #print(os.getcwd())
 
 #foldertoCreate = input("Please Enter the name of the Folder")
-
+'''
 foldertoCreate = "/Temps"
 # Load the Config JSON file from the config folder and read the respective values
 #FolderConfigJSON = open('./Config/folder_config.json')
@@ -35,6 +49,7 @@ CreateHTMLFooterTemplate = "UberCleaningRecordFooterTemplate.html"
 CreateHTMLFolder = "HTML"
 CreateCSVFolder = "CSV"
 '''
+'''
 #print(os.path.exists('/Uber Cleaning Record'))
 files = os.listdir(CreateBasePath)
 pathfile=os.path.dirname(CreateBasePath)
@@ -44,7 +59,7 @@ mypath = os.path.join(CreateBasePath, "Temp")
 #files = os.listdir(mypath)
 #print(files)
 '''
-
+'''
 folderName = input("Please Enter the name of the Folder: ")
 
 #dirName = CreateBasePath + folderName
@@ -74,7 +89,7 @@ if not os.path.exists(dirName):
 else:
     print("Directory " , dirName ,  " already exists")  
 
-
+'''
 
 '''
 FolderConfigJSON = open('./Config/folder_config.json')
@@ -168,3 +183,5 @@ try:
 finally:
     connection.close() 
     '''
+
+
