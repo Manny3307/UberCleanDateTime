@@ -10,6 +10,17 @@ from json import dumps
 from kafka import KafkaProducer
 
 
+
+path = "./Config/FolderStructure.json"
+folders = {}
+folder1 = {}
+with open(path, 'r') as f:
+    folders = json.load(f)
+
+print(folders["folder_name"])
+folder1["Temp1"] = folders["folder_name"]
+print(folder1)
+'''
 producer = KafkaProducer(bootstrap_servers=['localhost:9092'],
                          value_serializer=lambda x: 
                          dumps(x).encode('utf-8'))
@@ -18,7 +29,7 @@ for e in range(100):
     data = {'number' : e}
     producer.send('mallory', value=data)
     #sleep(5)
-
+/*'''
 '''
 
 f = open('./Config/config.json')

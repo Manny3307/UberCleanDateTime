@@ -1,0 +1,147 @@
+[
+ {
+  "UberDateLog": "09/08/2021 09-18-24 PM",
+  "UberLogs": [
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 110, in create_folder_structure\n    sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-21-09 PM",
+  "UberLogs": [
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 110, in create_folder_structure\n    sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-24-45 PM",
+  "UberLogs": [
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 80, in load_date_time_data\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/UberBuild/venv/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 271, in concat\n    op = _Concatenator(\n  File \"/home/manny/UberBuild/venv/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 329, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-24-45 PM",
+  "UberLogs": [
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 80, in load_date_time_data\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/UberBuild/venv/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 271, in concat\n    op = _Concatenator(\n  File \"/home/manny/UberBuild/venv/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 329, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program",
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 80, in load_date_time_data\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/UberBuild/venv/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 271, in concat\n    op = _Concatenator(\n  File \"/home/manny/UberBuild/venv/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 329, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 101, in create_final_df\n    self.load_date_time_data(foldername)\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 82, in load_date_time_data\n    objUberExceptionLogging.UberLogException(\"ERROR: Date and Time Data cannot be loaded in the dataframe.\", True, True)\n  File \"/home/manny/UberBuild/ExceptionLogging.py\", line 69, in UberLogException\n    if UberSystemExit == True: sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-28-12 PM",
+  "UberLogs": [
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 110, in create_folder_structure\n    sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-29-13 PM",
+  "UberLogs": [
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 111, in create_folder_structure\n    sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-31-03 PM",
+  "UberLogs": [
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 112, in create_folder_structure\n    sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-32-33 PM",
+  "UberLogs": [
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 113, in create_folder_structure\n    sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-34-05 PM",
+  "UberLogs": [
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 113, in create_folder_structure\n    sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-34-43 PM",
+  "UberLogs": [
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe.",
+    "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+    "Rendering the dataframe to HTML!!!"
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   [
+    "Config settings from config.json Loaded successfully.",
+    "Concatenating the final HTML!!!",
+    "Saving the final HTML to HTML file in HTML Folder!!!"
+   ],
+   [
+    "Begin to write the PDF file from the resultant HTML!!!",
+    "PDF written successfully from the resultant HTML file!!!"
+   ]
+  ]
+ },
+ {
+  "UberDateLog": "09/08/2021 09-42-45 PM",
+  "UberLogs": [
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe.",
+    "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+    "Rendering the dataframe to HTML!!!"
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   [
+    "Config settings from config.json Loaded successfully.",
+    "Concatenating the final HTML!!!",
+    "Saving the final HTML to HTML file in HTML Folder!!!"
+   ],
+   [
+    "Begin to write the PDF file from the resultant HTML!!!",
+    "PDF written successfully from the resultant HTML file!!!"
+   ]
+  ]
+ }
+]

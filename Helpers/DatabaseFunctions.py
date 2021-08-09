@@ -1,4 +1,4 @@
-from ExceptionLogging import UberExceptionLogging
+from Helpers.ExceptionLogging import UberExceptionLogging
 from sqlalchemy import create_engine, orm
 import mysql.connector
 import json

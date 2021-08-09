@@ -1,9 +1,9 @@
-from ExceptionLogging import UberExceptionLogging
-from FolderFunctions import FolderFunction
-from DataFrameFunctions import DataFrameFunction
-from DatabaseFunctions import dbFunction
-from HTMLFunctions import HTMLFunctions
-from PDFFunctions import PDFFunctions
+from Helpers.ExceptionLogging import UberExceptionLogging
+from Helpers.FolderFunctions import FolderFunction
+from Helpers.DataFrameFunctions import DataFrameFunction
+from Helpers.DatabaseFunctions import dbFunction
+from Helpers.HTMLFunctions import HTMLFunctions
+from Helpers.PDFFunctions import PDFFunctions
 
 UberLogString = []
 

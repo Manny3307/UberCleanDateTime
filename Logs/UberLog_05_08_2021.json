@@ -1,0 +1,196 @@
+[
+ {
+  "UberDateLog": "05/08/2021 08-32-39 PM",
+  "UberLogs": [
+   "ERROR: PDF file cannot be created, please check if the PDF file is already open!!!",
+   "Traceback (most recent call last):\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/pdfkit/pdfkit.py\", line 170, in to_pdf\n    with codecs.open(path, encoding='utf-8') as f:\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/codecs.py\", line 905, in open\n    file = builtins.open(filename, mode, buffering)\nFileNotFoundError: [Errno 2] No such file or directory: '../cleaningrecord/source activate /home/manny/ML_Prac/Sample_Project/env/Cleaning-record-source activate /home/manny/ML_Prac/Sample_Project/env.pdf'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/manny/UberBuild/PDFFunctions.py\", line 57, in create_PDF\n    pdfkit.from_file(f\"{TemplatePath}/{FinalHTMLResult}\", self.GetCurrentPathName(folderName))\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/pdfkit/api.py\", line 49, in from_file\n    return r.to_pdf(output_path)\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/pdfkit/pdfkit.py\", line 179, in to_pdf\n    raise IOError('Command failed: %s\\n'\nTypeError: not enough arguments for format string\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 08-33-09 PM",
+  "UberLogs": [
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe.",
+    "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+    "Rendering the dataframe to HTML!!!"
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   [
+    "Config settings from config.json Loaded successfully.",
+    "Concatenating the final HTML!!!",
+    "Saving the final HTML to HTML file in HTML Folder!!!"
+   ],
+   [
+    "Begin to write the PDF file from the resultant HTML!!!",
+    "PDF written successfully from the resultant HTML file!!!"
+   ]
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 08-37-03 PM",
+  "UberLogs": [
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 80, in load_date_time_data\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 271, in concat\n    op = _Concatenator(\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 329, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 08-37-03 PM",
+  "UberLogs": [
+   "ERROR: Date and Time Data cannot be loaded in the dataframe.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 80, in load_date_time_data\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 271, in concat\n    op = _Concatenator(\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 329, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n",
+   "Exiting the Program",
+   "ERROR: Final DataFrame holding the Cleaning Records cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 80, in load_date_time_data\n    UberTripData = pd.concat(TempUberTripDataList, axis=0, ignore_index=True)\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 271, in concat\n    op = _Concatenator(\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/site-packages/pandas/core/reshape/concat.py\", line 329, in __init__\n    raise ValueError(\"No objects to concatenate\")\nValueError: No objects to concatenate\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 100, in create_final_df\n    self.load_date_time_data(foldername)\n  File \"/home/manny/UberBuild/DataFrameFunctions.py\", line 82, in load_date_time_data\n    objUberExceptionLogging.UberLogException(\"ERROR: Date and Time Data cannot be loaded in the dataframe.\", True, True)\n  File \"/home/manny/UberBuild/ExceptionLogging.py\", line 69, in UberLogException\n    if UberSystemExit == True: sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 08-59-11 PM",
+  "UberLogs": [
+   "ERROR: Folder structure cannot be created.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 85, in create_folder_structure\n    folders = folders.replace(\"folder_name\", folderName)\nAttributeError: 'dict' object has no attribute 'replace'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 09-09-34 PM",
+  "UberLogs": [
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe.",
+    "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+    "Rendering the dataframe to HTML!!!"
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   [
+    "Config settings from config.json Loaded successfully.",
+    "Concatenating the final HTML!!!",
+    "Saving the final HTML to HTML file in HTML Folder!!!"
+   ],
+   [
+    "Begin to write the PDF file from the resultant HTML!!!",
+    "PDF written successfully from the resultant HTML file!!!"
+   ]
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 09-12-44 PM",
+  "UberLogs": [
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe.",
+    "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+    "Rendering the dataframe to HTML!!!"
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   [
+    "Config settings from config.json Loaded successfully.",
+    "Concatenating the final HTML!!!",
+    "Saving the final HTML to HTML file in HTML Folder!!!"
+   ],
+   [
+    "Begin to write the PDF file from the resultant HTML!!!",
+    "PDF written successfully from the resultant HTML file!!!"
+   ]
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 09-21-15 PM",
+  "UberLogs": [
+   "ERROR: File(s) cannot be copied in required folders.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 151, in copy_files_to_dest_folder\n    copyfile(src_files, dest_files)\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/shutil.py\", line 261, in copyfile\n    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:\nFileNotFoundError: [Errno 2] No such file or directory: '../cleaningrecord/Temp2/HTML/UberCleaningRecordFooterTemplate.html'\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 09-21-15 PM",
+  "UberLogs": [
+   "ERROR: File(s) cannot be copied in required folders.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 151, in copy_files_to_dest_folder\n    copyfile(src_files, dest_files)\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/shutil.py\", line 261, in copyfile\n    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:\nFileNotFoundError: [Errno 2] No such file or directory: '../cleaningrecord/Temp2/HTML/UberCleaningRecordFooterTemplate.html'\n",
+   "Exiting the Program",
+   "ERROR: Required HTML and CSV file(s) cannot be copied in designated folders.",
+   "Traceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 151, in copy_files_to_dest_folder\n    copyfile(src_files, dest_files)\n  File \"/home/manny/ML_Prac/Sample_Project/env/lib/python3.8/shutil.py\", line 261, in copyfile\n    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:\nFileNotFoundError: [Errno 2] No such file or directory: '../cleaningrecord/Temp2/HTML/UberCleaningRecordFooterTemplate.html'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 132, in create_folder_structure\n    self.copy_files_to_dest_folder(HTMLTemplatefiles_src, HTMLDirName)\n  File \"/home/manny/UberBuild/FolderFunctions.py\", line 156, in copy_files_to_dest_folder\n    objUberExceptionLogging.UberLogException(\"ERROR: File(s) cannot be copied in required folders.\", True, True)\n  File \"/home/manny/UberBuild/ExceptionLogging.py\", line 69, in UberLogException\n    if UberSystemExit == True: sys.exit()\nSystemExit\n",
+   "Exiting the Program"
+  ]
+ },
+ {
+  "UberDateLog": "05/08/2021 09-23-52 PM",
+  "UberLogs": [
+   [
+    "Folder settings from folder_config.json Loaded successfully.",
+    "CSV and HTML files copied successfully to the newly created designated folders.",
+    "Folder Structure created successfully."
+   ],
+   [
+    "Creating the final dataframe having all the required columns",
+    "DataFrame configurations from DataFrameConfig.json Loaded successfully.",
+    "Config settings from config.json Loaded successfully.",
+    "Date and Time Data successfully loaded in the dataframe.",
+    "Renaming the dataframe columns to one provided in the CPVV Template !!!",
+    "Rendering the dataframe to HTML!!!"
+   ],
+   [
+    "Database credentials from DBconfig.json Loaded successfully.",
+    "Connecting to Database",
+    "Sending Records to UberTempCleaningRecords table in database....",
+    "Sending Records to UberCleaningRecords table through InsertJSONCleaningRecord stored procedure",
+    "Insert succeeded to UberCleaningRecords, row count = 2",
+    "Records successfully sent to UberCleaningRecords in database !!!"
+   ],
+   [
+    "Config settings from config.json Loaded successfully.",
+    "Concatenating the final HTML!!!",
+    "Saving the final HTML to HTML file in HTML Folder!!!"
+   ],
+   [
+    "Begin to write the PDF file from the resultant HTML!!!",
+    "PDF written successfully from the resultant HTML file!!!"
+   ]
+  ]
+ }
+]

@@ -1,4 +1,4 @@
-from ExceptionLogging import UberExceptionLogging
+from Helpers.ExceptionLogging import UberExceptionLogging
 import json
 import os, ntpath, sys, traceback
 from shutil import copyfile
